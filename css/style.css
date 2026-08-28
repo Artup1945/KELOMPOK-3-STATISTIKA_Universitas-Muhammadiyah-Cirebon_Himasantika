@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+.elemen1{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
