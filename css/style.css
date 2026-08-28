@@ -5,9 +5,39 @@
     box-sizing: border-box;
 }
 
+.box-navbar{
+    background-color: #111111;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
 
-.elemen1{
-    background-color: aqua;
-    width: 500px;
-    height: 500px;
+.box-navbar .box:first-child{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.logo-umc{
+    width: 60px;
+    height: 60px;
+}
+
+.text-logo{
+    font-size: large;
+}
+
+section.conteiner{
+    width: 100%;
+    min-height: 100vh;
 }
